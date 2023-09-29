@@ -903,11 +903,11 @@ pre {
     -ms-flex: 0 0 58.33333%;
     flex: 0 0 58.33333%;
     max-width: 58.33333%; }
-  /* .col-md-8 {
+  .col-md-8 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 66.66667%;
     flex: 0 0 66.66667%;
-    max-width: 66.66667%; } */
+    max-width: 66.66667%; }
   .col-md-9 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 75%;
@@ -5538,7 +5538,8 @@ button.bg-dark:focus {
 .d-flex {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
-  display: flex !important; }
+  display: flex !important;
+justify-content: center; }
 
 .d-inline-flex {
   display: -webkit-inline-box !important;
@@ -8193,7 +8194,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light .navbar-nav {
       padding-bottom: 10px; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 12px;
+    font-size: 20px;
     padding-top: 1.8rem;
     padding-bottom: 1.8rem;
     padding-left: 20px;
@@ -8329,7 +8330,7 @@ h1, h2, h3, h4, h5,
 
 .navbar-brand {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 50px;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
@@ -8655,7 +8656,7 @@ h1, h2, h3, h4, h5,
 
 .ftco-intro h2 {
   font-size: 60px; }
-  .ftco-intro h2 span {
+  .ftco-intro h2 span,.ftco-intro p span {
     background: #fdcb6e; }
 
 .services-section {
