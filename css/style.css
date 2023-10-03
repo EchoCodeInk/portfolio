@@ -50,6 +50,7 @@ html {
     background: linear-gradient(45deg, white, lightgrey);
   }
 
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
@@ -8784,8 +8785,11 @@ textarea.form-control {
   background: #3c312e; }
 
 .ftco-footer {
-  font-size: 16px;
-  background: #000;
+  font-size: 20px;
+  background-image: url(../images/bg_3.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: bottom;
   padding: 7em 0;
   z-index: 0; }
   .ftco-footer .ftco-footer-logo {
@@ -9634,6 +9638,7 @@ textarea.form-control {
 }
 .skills-icon{
     height: 50px;
+    border-radius: 50%;
 }
 
 @media (max-width: 850px) {
