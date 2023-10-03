@@ -46,6 +46,10 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
 
+  section{
+    background: linear-gradient(45deg, white, lightgrey);
+  }
+
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
@@ -57,7 +61,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background: linear-gradient(45deg, black, lightgrey);
+ }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -9645,3 +9650,5 @@ textarea.form-control {
         height: 30px;
     }
 }
+
+
