@@ -9619,3 +9619,29 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+.video_single {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: auto;
+    padding: 20px;
+
+}
+.skills-icon{
+    height: 50px;
+}
+
+@media (max-width: 850px) {
+    .video_single {
+        height: 300px; }
+    }
+
+@media (max-width: 500px) {
+    .video_single {
+        height: 200px;
+    }
+
+    .skills-icon{
+        height: 30px;
+    }
+}
