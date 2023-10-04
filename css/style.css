@@ -3433,6 +3433,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
+  z-index: 15;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9661,4 +9662,23 @@ textarea.form-control {
     background-color:#1e1e1e;
     color: white;
     margin: 0;
+}
+
+.scroll-section {
+    max-height: 100px;
+    overflow-y: auto;
+}
+.accordion, #panelsStayOpen-collapseTwo>h2{
+    width: 80%;
+    margin: auto;
+}
+.accordion{
+
+    z-index: 10;
+}
+ .accordion-button{
+    color: white;
+    position: unset;
+    background-color:black ;
+
 }

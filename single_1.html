@@ -13,6 +13,8 @@
     <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
 
@@ -65,74 +67,223 @@
     </section>
 
     <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-lg-10 order-md-last ftco-animate">
-            <h2 class="mb-3 h1">Space Invader <a href="https://github.com/EchoCodeInk/Console_Game-Space_invader"><span class="icon-github"></span></a></h2>
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-lg-10 order-md-last ftco-animate">
+                    <h2 class="mb-3 h1">Space Invader <a href="https://github.com/EchoCodeInk/Console_Game-Space_invader"><span class="icon-github"></span></a>
+                    </h2>
 
-            <p>Space Invaders is a classic video game, released in 1978 by Taito. In this arcade game, the player controls a spaceship and must destroy a horde of moving alien invaders while avoiding their shots. It is a cornerstone of video game history.</p>
-              <video class="video_single" controls autoplay loop muted >
-                <source src="./video/space-invader.mp4" type="video/mp4" />
-                <p>
-                  Votre navigateur ne prend pas en charge les vidéos HTML5. Voici
-                  <a href="./video/space_invader.mp4" class="nav-link" download>un lien pour télécharger la vidéo</a>.
-                </p>
-              </video>
-              <h4>
-                <div >
-                    <span>Skills required :</span>
-                        <span class="icon-skills"><img src="images/c++.png" class="skills-icon" alt=""></span>
-                        <span class="icon-skills"><img src="images/bitbucket.png" class="skills-icon" alt=""></span>
-                        <span class="icon-skills"><img src="images/visual-studio.png" class="skills-icon" alt=""></span>
-                        <span class="icon-skills"><img src="images/git-bash.png" class="skills-icon" alt=""></span>
+                    <p>Space Invaders is a classic video game, released in 1978 by Taito. In this arcade game, the player controls a spaceship and must destroy a horde of moving alien invaders while avoiding their shots. It is a cornerstone of video game history.
+                    </p>
+                    <video class="video_single" controls autoplay loop muted >
+                        <source src="./video/space-invader.mp4" type="video/mp4" />
+                            <p>
+                                Votre navigateur ne prend pas en charge les vidéos HTML5. Voici
+                                <a href="./video/space_invader.mp4" class="nav-link" download>un lien pour télécharger la vidéo</a>.
+                            </p>
+                    </video>
+                    <h4>
+                        <div >
+                            <span>Skills required :</span>
+                                <span class="icon-skills"><img src="images/c++.png" class="skills-icon" alt=""></span>
+                                <span class="icon-skills"><img src="images/bitbucket.png" class="skills-icon" alt=""></span>
+                                <span class="icon-skills"><img src="images/visual-studio.png" class="skills-icon" alt=""></span>
+                                <span class="icon-skills"><img src="images/git-bash.png" class="skills-icon" alt=""></span>
+                        </div>
+                    </h4>
                 </div>
-            </h4>
-            <h2> Description</h2>
-            <p>
-                This final project in object-oriented programming (C++) required us to create an arcade game called "Space Invaders II.
-                " In this game, we are faced with an alien invasion, and as players, it is our mission to save the Earth. The game begins with an introduction that tells the story,
-                followed by a menu that allows us to start the game, change the difficulty level, check the controls, and exit the game if needed.
-            </p>
-
-            <p> During the game, aliens appear randomly on the screen. We control a spaceship at the bottom of the screen and can shoot lasers to destroy them.
-                    There are two difficulty levels, each affecting the speed at which aliens appear and their aggressive behavior.
-                    By destroying aliens, we earn points, and each type of alien has a different point value.
-            </p>
-
-            <p> Our goal is to destroy all the aliens before there are 15 of them on the screen; otherwise, we lose the game and forfeit half of our accumulated points.
-                    However, if we manage to eliminate all the aliens, we win the game, and our points are doubled.
-            </p>
-
-             <p> In addition to the basic requirements, we added several additional features of our choice to enhance the game.
-                    We decided to implement upward and downward movements for our spaceship, added sound effects and music, a timer, and an ammunition reserve.
-            </p>
-
-             <p> In the end, we submitted our project to a Bitbucket repository and presented our work to the class.
-                    It was an exciting challenge and a valuable learning experience.
-                    We worked as a team, made frequent commits with relevant messages, and produced a sufficient amount of source code to achieve our goals.
-            </p>
-            <h2 class="mb-3 mt-5 h1">Personal Task</h2>
-            <h3>Creating Functions and Introduction Page:</h3>
-            <p>   I contributed to creating the necessary functions to display the game's introduction, explaining the game's story.</p>
-            <h3> Creating Functions and Menu Page: </h3>
-            <p> I also created the functions to display the game's menu. This involves designing the user interface for the main menu, including options to start the game, change the difficulty level, view controls, and exit the game.</p>
-            <h3>Spawning Extraterrestrials:</h3>
-            <p>I implemented the logic to randomly spawn extraterrestrials on the screen. This includes managing coordinates and the types of extraterrestrials to generate.</p>
-            <h3>Implementing Spaceship Movement:</h3>
-            <p> I implemented the mechanics allowing the player-controlled spaceship to move up and down the screen.</p>
-            <h3> Implementing Laser Shooting:</h3>
-            <p>I participated in setting up the feature that allows the spaceship to shoot lasers to destroy extraterrestrials. This includes managing collisions between lasers and extraterrestrials.</p>
-            <h3>Adding a Timer:</h3>
-            <p>  I was involved in adding a timer to the game to track the duration of each playthrough. This requires time management and updating the display.</p>
-            <h3>Task Distribution:</h3>
-            <p>I played a key role in helping distribute tasks within the team of three partners. This contributed to a balanced allocation of responsibilities and resolving any roadblocks encountered during the project.</p>
-            <h3>Pillar/Advisor Role:</h3>
-            <p>I was a team member who played a significant support role in helping to resolve various issues and challenges throughout the project. My expertise and guidance were valuable to the team.</p>
-            <h2>This structuring reflects the various responsibilities I undertook in this collaborative project. I made significant contributions to implementing key game features and resolving issues, which was essential to its success.</h2>
-          </div> <!-- .col-md-8 -->
-
+            </div>
         </div>
+
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                            Project Description
+                            </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne">
+                    <div class="accordion-body">
+                        <p>
+                            This final project in object-oriented programming (C++) required us to create an arcade game called "Space Invaders II.
+                            " In this game, we are faced with an alien invasion, and as players, it is our mission to save the Earth. The game begins with an introduction that tells the story,
+                            followed by a menu that allows us to start the game, change the difficulty level, check the controls, and exit the game if needed.
+                        </p>
+                        <p>
+                            During the game, aliens appear randomly on the screen. We control a spaceship at the bottom of the screen and can shoot lasers to destroy them.
+                            There are two difficulty levels, each affecting the speed at which aliens appear and their aggressive behavior.
+                            By destroying aliens, we earn points, and each type of alien has a different point value.
+                        </p>
+                        <p>
+                            Our goal is to destroy all the aliens before there are 15 of them on the screen; otherwise, we lose the game and forfeit half of our accumulated points.
+                            However, if we manage to eliminate all the aliens, we win the game, and our points are doubled.
+                        </p>
+                        <p>
+                            In addition to the basic requirements, we added several additional features of our choice to enhance the game.
+                            We decided to implement upward and downward movements for our spaceship, added sound effects and music, a timer, and an ammunition reserve.
+                        </p>
+                        <p>
+                            In the end, we submitted our project to a Bitbucket repository and presented our work to the class.
+                            It was an exciting challenge and a valuable learning experience.
+                            We worked as a team, made frequent commits with relevant messages, and produced a sufficient amount of source code to achieve our goals.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo">
+                    Personal Task in this Project
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo">
+                    <div class="accordion-body">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Creating Functions and Introduction Page:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    I contributed to creating the necessary functions to display the game's introduction, explaining the game's story.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Creating Functions and Menu Page:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    I also created the functions to display the game's menu. This involves designing the user interface for the main menu, including options to start the game, change the difficulty level, view controls, and exit the game.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Spawning Extraterrestrials:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    I implemented the logic to randomly spawn extraterrestrials on the screen. This includes managing coordinates and the types of extraterrestrials to generate.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Implementing Spaceship Movement:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    I implemented the mechanics allowing the player-controlled spaceship to move up and down the screen.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Implementing Laser Shooting:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    I participated in setting up the feature that allows the spaceship to shoot lasers to destroy extraterrestrials. This includes managing collisions between lasers and extraterrestrials.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Adding a Timer:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    I was involved in adding a timer to the game to track the duration of each playthrough. This requires time management and updating the display.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Task Distribution:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    I played a key role in helping distribute tasks within the team of three partners. This contributed to a balanced allocation of responsibilities and resolving any roadblocks encountered during the project.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                                data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Pillar/Advisor Role:
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                                <div class="accordion-body">
+                                    I was a team member who played a significant support role in helping to resolve various issues and challenges throughout the project. My expertise and guidance were valuable to the team.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h2>This structuring reflects the various responsibilities I undertook in this collaborative project. I made significant contributions to implementing key game features and resolving issues, which was essential to its success.</h2>
+                </div>
+
+
+            </div>
+            <!-- <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse"
+                    data-mdb-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree">
+                    Accordion Item #3
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree">
+                    <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                        until the collapse plugin adds the appropriate classes that we use to style each
+                        element. These classes control the overall appearance, as well as the showing and
+                        hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                        our default variables. It's also worth noting that just about any HTML can go within
+                        the <code>.accordion-body</code>, though the transition does limit overflow.
+                    </div>
+                </div>
+            </div> -->
       </div>
+
+
+
+
     </section> <!-- .section -->
 
     <footer class="ftco-footer ftco-section">
@@ -207,6 +358,7 @@
 
 
   <script src="js/jquery.min.js"></script>
+  <script src="js/mdb.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
