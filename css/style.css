@@ -8689,7 +8689,8 @@ h1, h2, h3, h4, h5,
   .services .media-body h3 {
     font-size: 28px;
     font-weight: 400; }
-  @media (min-width: 992px) {
+
+
     .services.active {
       background: #1e1e1e;
       color: #fff; }
@@ -8701,7 +8702,9 @@ h1, h2, h3, h4, h5,
       background: #fdcb6e;
       color: #000000; }
       .services.active-2 .icon span {
-        color: #fff; } }
+        color: #fff; }
+
+
   .services:hover, .services:focus {
     background: #fdcb6e;
     color: #000000; }
@@ -9085,7 +9088,7 @@ textarea.form-control {
         bottom: 0;
         right: 0;
         width: 1140px;
-        margin: 0 auto; }
+        margin: 0 auto;  }
         .portfolio-entry .one-half.half-text .text {
           position: absolute;
           top: 50%;
@@ -9630,12 +9633,16 @@ textarea.form-control {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
 
+     .video_position{
+        width: 100%;
+        height: auto;
+     }
+
 .video_single {
     display: block;
-    margin: 0 auto;
-    height: 500px;
-    width: auto;
-    padding: 20px;
+    padding: 0;
+    margin: 10px auto;
+    width: 100%;
 
 }
 .skills-icon{
@@ -9647,14 +9654,26 @@ textarea.form-control {
     .video_single {
         height: 300px; }
     }
-
-@media (max-width: 500px) {
-    .video_single {
-        height: 200px;
+    .navbar-brand{
+        /* font-size: 1rem; */
+    }
+    .portfolio-wrap .text h2,.col-md-8 h2 {
+        /* font-size: 2rem; */
     }
 
-    .skills-icon{
-        /* height: 30px; */
+@media (max-width: 500px) {
+
+
+    .video_single {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .navbar-brand{
+        font-size: 1rem;
+    }
+    .portfolio-wrap .text h2,.col-md-8 h2 {
+        font-size: 2rem;
     }
 }
 
