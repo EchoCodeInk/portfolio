@@ -12670,6 +12670,7 @@ textarea.form-control {
     background-color: #1e1e1e;
     color: white;
     margin: 0;
+    padding: 20px;
 }
 
 .scroll-section {
