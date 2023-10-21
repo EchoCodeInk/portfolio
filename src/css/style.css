@@ -11792,12 +11792,12 @@ textarea.form-control {
     font-weight: 700;
 }
 .portfolio-wrap .text h2 {
-    font-size: 80px;
+    font-size: 60px;
     display: inline-block;
 }
 @media (max-width: 767.98px) {
     .portfolio-wrap .text h2 {
-        font-size: 16vw;
+        font-size: 2rem;
     }
 }
 .portfolio-wrap .text h2 a {
@@ -11806,7 +11806,7 @@ textarea.form-control {
     border-bottom: 3px solid #000000;
 }
 .portfolio-wrap .text .top-relative h2 {
-    font-size: 50px;
+    /* font-size: 50px; */
 }
 .portfolio-wrap .text .desc {
     position: relative;
@@ -12644,10 +12644,22 @@ textarea.form-control {
     height: 50px;
     margin: 2px;
 }
+.accordion-button {
+    color: white;
+    position: unset;
+    background-color: black;
+    font-size: 2rem;
+}
 
-@media (max-width: 850px) {
+@media (max-width: 767.98px) {
     .video_single {
         height: 300px;
+    }
+    .accordion-button {
+        font-size: 1rem;
+    }
+    .navbar-brand {
+        font-size: 1rem;
     }
 }
 
@@ -12656,13 +12668,6 @@ textarea.form-control {
         margin: 0;
         padding: 0;
         width: 100%;
-    }
-    .navbar-brand {
-        font-size: 1rem;
-    }
-    .portfolio-wrap .text h2,
-    .col-md-8 h2 {
-        font-size: 2rem;
     }
 }
 
@@ -12684,15 +12689,7 @@ textarea.form-control {
     margin: auto;
     font-size: 1rem;
 }
-.accordion-button {
-    font-size: 2rem;
-}
 
-.accordion-button {
-    color: white;
-    position: unset;
-    background-color: black;
-}
 .icon-profil {
     width: 40px;
     border-radius: 50%;
