@@ -11405,12 +11405,9 @@ h5,
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    padding: 80px 25px;
+    padding: 10px;
 }
 @media (max-width: 991.98px) {
-    .services {
-        padding: 10px 0;
-    }
 }
 .services .icon {
     line-height: 1.3;
